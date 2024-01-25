@@ -1,0 +1,13 @@
+beberapa hal sering terjadi ketika ngoding :
+
+salah ketik
+salah panggil 
+ada yang lupa ti dutup
+salah posisi
+
+ada hal di luar contoll yg gak di sengaja
+meneyebabkan file html rusak
+
+solusi
+copy dari file asli yaitu
+dashboard-transaction.html
