@@ -109,7 +109,8 @@ class CheckoutController extends Controller
         $order_id = $notification->order_id;
 
         // Cari transaksi berdasarkan ID
-        $transaction = Transaction::findOrFail($order_id);
+        // $transaction = Transaction::findOrFail($order_id);
+        $transaction = Transaction::where('code',$order_id)->first();
         
 
         // Handle notification status midtrans
