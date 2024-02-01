@@ -142,5 +142,6 @@ class CheckoutController extends Controller
 
         // Simpan transaksi
         $transaction->save();
+        
     }
 }

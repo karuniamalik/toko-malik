@@ -88,7 +88,7 @@
                       <div class="card-body">
                       <form action="{{ route('user.update', $item->id) }}" method="post" enctype="multipart/form-data">
                         @csrf
-                        @method('put')
+                        @method('PUT')
                         <div class="row">
                           <div class="col-md-12">
                         <div class="form-group">
